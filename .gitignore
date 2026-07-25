@@ -22,3 +22,12 @@ cypress/screenshots/
 .php-cs-fixer.cache
 /plugins/themes/default/js/lib/swiper/
 registry/uiLocaleKeysBackend.json
+# Playwright test harness (mirrors ojs-main/.gitignore)
+/config.test.inc.php
+/.env.playwright
+/test-results/
+/playwright-report/
+/playwright/.auth/
+!/playwright/.auth/.gitkeep
+/blob-report/
+/playwright/.cache/
